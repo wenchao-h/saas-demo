@@ -5,7 +5,7 @@
 
 # blueapps requirement
 --extra-index-url https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/
---find-links=./packages
+--find-links=packages
 -r requirements_services.txt
 
 #redis==3.2.0
