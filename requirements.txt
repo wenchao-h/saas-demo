@@ -4,6 +4,9 @@
 # 请确保指定的包和版本号，可通过pip安装
 
 # blueapps requirement
+--extra-index-url https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/
+--find-links=./packages
+-r requirements_services.txt
 
 #redis==3.2.0
 Django==2.2.6
@@ -22,9 +25,7 @@ whitenoise==3.3.0
 six==1.11.0
 
 
---extra-index-url https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/
---find-links=https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/blueapps/
--r requirements_services.txt
+
 redis==2.10.5
 blueapps==3.3.2
 gunicorn==19.6.0
