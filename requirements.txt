@@ -23,7 +23,6 @@ six==1.11.0
 
 
 --extra-index-url https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/
---find-links=https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/blueapps/
 -r requirements_services.txt
 redis==2.10.5
 blueapps==3.3.2
