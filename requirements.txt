@@ -7,7 +7,6 @@
 --extra-index-url https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/
 --find-links=packages
 -r requirements_services.txt
--U pip==20.2.3
 #redis==3.2.0
 Django==2.2.6
 #celery==4.4.0
